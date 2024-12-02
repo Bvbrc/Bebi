@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lili Coura Replica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Lili Coura</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h2>Bem-vindo ao Lili Coura</h2>
+        <p>Um espaço dedicado à moda e estilo único.</p>
+        <a href="#about" class="btn">Saiba Mais</a>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Descubra nossa história e como transformamos a moda em arte.</p>
+    </section>
+
+    <section id="services">
+        <h2>Serviços</h2>
+        <p>Conheça os serviços que oferecemos para destacar sua personalidade.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Lili Coura. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
